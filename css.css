@@ -17,10 +17,6 @@ img{
     height: auto;
     max-width: 100%;
 }
-*:focus{
-    outline:5px dashed skyblue ;
-    offset:3px 2px ;
-}
 .left-container{
     max-width: 600px;
     width: 100%;
