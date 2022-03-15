@@ -20,7 +20,7 @@ img{
     max-width: 100%;
 }
 *:focus{
-    outline: 3px dashed skyblue;
+    outline: 3px dashed skyblue ;
     outline-offset: 3px;
 }
 .left-container{
@@ -89,6 +89,7 @@ img{
         width: 164px;
         height: 48px;
         background-color:#1E90FF;
+        margin-top: 24px;
     }
     .top-blogs:hover{
         opacity: 0.8;
