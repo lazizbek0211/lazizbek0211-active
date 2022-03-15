@@ -1,6 +1,8 @@
 /* global-styles */
 *{box-sizing: border-box;}
+
 html{height: 100%;}
+
 body{
     display: flex;
     flex-direction: column;
@@ -16,6 +18,10 @@ body{
 img{
     height: auto;
     max-width: 100%;
+}
+*:focus{
+    outline: 3px dashed skyblue;
+    outline-offset: 3px;
 }
 .left-container{
     max-width: 600px;
@@ -53,7 +59,8 @@ img{
     .left-side {
         width: 600px;
         height: 782px;
-        background-image: url(img/left-bg.png);
+        background-image: url(../img/left-bg.png);
+        contain:"";
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -65,6 +72,7 @@ img{
         line-height: 29px;
         letter-spacing: 2px;
         color:#fff;
+        margin: 0;
     }
     .star{
         width: 20px;
@@ -99,7 +107,7 @@ img{
         line-height: 24px;
         letter-spacing: 2px;
         color: #FFFFFF;
-        margin-top: 12px;
+        padding-top: 12px;
     }
     .right-side {
         font-family: 'Bebas Neue';
@@ -132,6 +140,7 @@ img{
         border: 1px solid #999999;
         width: 492px;
         margin-bottom: 24px;
+        margin-top: 0;
     }
     .article {
         display: flex;
@@ -178,6 +187,10 @@ img{
         font-size: 14px;    
         line-height: 16px;
         color: #888888;
+        margin: 0;
+        padding: 0;
+        padding-top: 4px;
+        padding-left: 36px;
         padding-left: 36px;
         padding-top: 4px;
         margin-right: 25px;
@@ -204,6 +217,9 @@ img{
         font-size: 14px;    
         line-height: 16px;
         color: #888888;
+        margin: 0;
+        padding: 0;
+        padding-top: 4px;
         padding-left: 36px;
         padding-top: 4px;
         margin-right: 25px;
